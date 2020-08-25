@@ -38,11 +38,11 @@ beep() {
 # Start recording with byzanz-record and xrectsel
 start() {
     # Find region with xrectsel
-    sleep 1   
+    sleep 1
+    echo "Select region"
     REGION=$(xrectsel -f "-x %x -y %y -w %w -h %h")
-    MSG="recording will start in $DELAY seconds."
-    echo $MSG
-    notify-send "Screencast:" $MSG
+    echo "Recording will start in $DELAY seconds."
+    notify-send "Screencast:" "recording will start in $DELAY seconds."
     sleep $DELAY
     beep
 	  # start recording with byzanz recorder
@@ -55,6 +55,7 @@ stop() {
     then
         killall sleep
         beep
+        echo "Screencast: saved to $FOLDER."
         notify-send "Screencast:" "saved to $FOLDER."
     fi
 }
