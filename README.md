@@ -1,5 +1,5 @@
 <h1 align="center"> screencast</h1>
-<h4 align="center">Record screen with `byzanz-record` and `python-xrectsel` in gif format</h4>
+<h4 align="center">Record screen with 'byzanz-record' and 'python-xrectsel' in gif format</h4>
 
 ### Prerequisite
 - [byzanz-record](git://git.gnome.org/byzanz):
@@ -39,4 +39,10 @@ It is a simple cli tool to capture geometry of a rectangular screen region.
   toggle   Toggling between start and stop.
            Specially used for single key binding for start and stop screencast
   *         Help
+```
+
+
+I'm an i3 user, I use the following binding
+```
+bindsym $mod+Print exec sh <path>/screencast toggle
 ```
