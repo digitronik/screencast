@@ -24,3 +24,19 @@ It is a simple cli tool to capture geometry of a rectangular screen region.
     ```
     Note: You can install it with source
 
+### Usage
+```
+❯ ./screencast
+
+  Screencast
+  Record screen with byzanz-record and python-xrectsel in gif format.
+
+  Usage: screencast [command]
+
+  Commands:
+  start    Start recording
+  stop	   Stop recording
+  toggle   Toggling between start and stop.
+           Specially used for single key binding for start and stop screencast
+  *         Help
+```
