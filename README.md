@@ -41,14 +41,14 @@ It is a simple cli tool to capture geometry of a rectangular screen region.
   *         Help
 ```
 
+### keyboard shortcut  
+If you are using this screencast frequently then you can create a keyboard shortcut key instead of executing a command everytime. Use `screencast toggle` command so we can manage the `start` and `stop` command in one shortcut key.
 
-I'm an i3 user, I use the following binding
+#### i3wm
+You can add the following binding in your config
 ```
 bindsym $mod+Print exec sh <path>/screencast toggle
 ```
-
 #### GNOME
-
-
-  - Refer the following doc to add a keyboard shortcut.
-  https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
+Refer the following doc to add a keyboard shortcut. 
+https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/
