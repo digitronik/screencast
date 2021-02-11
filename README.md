@@ -46,3 +46,14 @@ I'm an i3 user, I use the following binding
 ```
 bindsym $mod+Print exec sh <path>/screencast toggle
 ```
+
+### keyboard shortcut  
+- If you are using this feature frequently so you can create keyboard shortcut key instead of executing command everytime.
+You can refer below link to create shortcut key:
+#### GNOME
+- While refering below link we should add `screencast toggle` command so we can manage `start`
+and `stop` command in one shortcut key. 
+
+
+[Click_here_to_create_keyboard_shortcut](https://docs.fedoraproject.org/en-US/quick-docs/proc_setting-key-shortcut/)
+       
